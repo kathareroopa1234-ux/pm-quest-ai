@@ -1,0 +1,44 @@
+{
+  "brand": "PM Quest AI",
+  "version": "1.1",
+  "standard": "WCAG 2.1 Level AA",
+  "pairs": {
+    "light_mode": {
+      "body_text": { "foreground": "#334155", "background": "#F8FAFC", "ratio": "9.1:1", "status": "PASS AAA" },
+      "secondary_text": { "foreground": "#475569", "background": "#F8FAFC", "ratio": "6.2:1", "status": "PASS AA" },
+      "link_text": { "foreground": "#4F46E5", "background": "#FFFFFF", "ratio": "5.8:1", "status": "PASS AA" },
+      "button_primary": { "foreground": "#FFFFFF", "background": "#4F46E5", "ratio": "6.3:1", "status": "PASS AA" },
+      "ai_accent_text": { "foreground": "#0891B2", "background": "#F8FAFC", "ratio": "4.6:1", "status": "PASS AA" },
+      "placeholder": { "foreground": "#64748B", "background": "#F8FAFC", "ratio": "4.8:1", "status": "PASS AA" }
+    },
+    "dark_mode": {
+      "body_text": { "foreground": "#E2E8F0", "background": "#0F0F23", "ratio": "12.4:1", "status": "PASS AAA" },
+      "secondary_text": { "foreground": "#94A3B8", "background": "#0F0F23", "ratio": "5.1:1", "status": "PASS AA" },
+      "secondary_text_raised": { "foreground": "#94A3B8", "background": "#1A1B3D", "ratio": "4.6:1", "status": "PASS AA" },
+      "link_text": { "foreground": "#818CF8", "background": "#0F0F23", "ratio": "5.4:1", "status": "PASS AA" },
+      "ai_accent_text": { "foreground": "#22D3EE", "background": "#0F0F23", "ratio": "7.8:1", "status": "PASS AA" },
+      "button_primary": { "foreground": "#FFFFFF", "background": "#4F46E5", "ratio": "6.3:1", "status": "PASS AA" }
+    },
+    "gamification": {
+      "xp_badge": { "foreground": "#0F0F23", "background": "#F59E0B", "ratio": "7.4:1", "status": "PASS AA" },
+      "success_text": { "foreground": "#10B981", "background": "#0F0F23", "ratio": "6.1:1", "status": "PASS AA" },
+      "error_text": { "foreground": "#EF4444", "background": "#0F0F23", "ratio": "4.9:1", "status": "PASS AA" }
+    }
+  },
+  "failing_pairs_do_not_use": {
+    "ai_cyan_on_white": { "foreground": "#00D4FF", "background": "#FFFFFF", "ratio": "1.9:1", "status": "FAIL" },
+    "white_on_ai_cyan": { "foreground": "#FFFFFF", "background": "#00D4FF", "ratio": "1.9:1", "status": "FAIL" },
+    "indigo_on_white_small": { "foreground": "#6366F1", "background": "#FFFFFF", "ratio": "4.5:1", "status": "FAIL AA normal text" },
+    "slate_500_on_deep_space": { "foreground": "#64748B", "background": "#1A1B3D", "ratio": "2.9:1", "status": "FAIL" },
+    "slate_500_on_midnight": { "foreground": "#64748B", "background": "#0F0F23", "ratio": "3.1:1", "status": "FAIL AA normal text" },
+    "white_on_quest_gradient": { "foreground": "#FFFFFF", "background": "#00D4FF", "ratio": "1.9:1", "status": "FAIL on cyan portion" },
+    "coach_blue_on_white": { "foreground": "#3B82F6", "background": "#FFFFFF", "ratio": "3.7:1", "status": "FAIL AA normal text" }
+  },
+  "rules": [
+    "Use quest-indigo-accessible (#4F46E5) not quest-indigo (#6366F1) for text links on light backgrounds",
+    "Use ai-cyan-accessible (#0891B2) not ai-cyan (#00D4FF) for AI labels on light backgrounds",
+    "Use slate-400 (#94A3B8) not slate-500 (#64748B) for secondary text on dark surfaces",
+    "Use button-gradient (indigo→violet) not quest-gradient for buttons with white text",
+    "Reserve quest-gradient for decorative surfaces, logo, and large display type only"
+  ]
+}

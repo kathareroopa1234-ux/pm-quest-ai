@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none" role="img" aria-label="PM Quest AI favicon">
+  <defs>
+    <linearGradient id="fav-gradient" x1="4" y1="28" x2="28" y2="4" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="55%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#A855F7"/>
+    </linearGradient>
+  </defs>
+  <rect width="32" height="32" rx="7" fill="#0F0F23"/>
+  <!-- Simplified for 16px: Q ring + tail only; neural nodes removed below 32px -->
+  <circle cx="16" cy="18" r="8" stroke="url(#fav-gradient)" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <path d="M22 24 L28 18 L24 18 L24 11" stroke="url(#fav-gradient)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>

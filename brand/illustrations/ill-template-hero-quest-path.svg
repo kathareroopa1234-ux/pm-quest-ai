@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none" role="img" aria-label="PM Quest AI illustration template  hero quest path">
+  <defs>
+    <linearGradient id="ill-grad" x1="0" y1="300" x2="400" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00D4FF" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#6366F1" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#A855F7" stop-opacity="0.6"/>
+    </linearGradient>
+    <linearGradient id="ill-orb" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="400" height="300" fill="#0F0F23"/>
+  <!-- Quest grid (3% opacity) -->
+  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+    <circle cx="1" cy="1" r="0.5" fill="#FFFFFF" fill-opacity="0.05"/>
+  </pattern>
+  <rect width="400" height="300" fill="url(#grid)"/>
+  <!-- Quest path -->
+  <path d="M60 240 Q120 200 160 160 T280 80" stroke="url(#ill-grad)" stroke-width="3" stroke-dasharray="8 6" fill="none" stroke-linecap="round"/>
+  <!-- Checkpoint nodes -->
+  <circle cx="60" cy="240" r="8" fill="#1A1B3D" stroke="#6366F1" stroke-width="2"/>
+  <circle cx="160" cy="160" r="8" fill="#1A1B3D" stroke="#6366F1" stroke-width="2"/>
+  <circle cx="280" cy="80" r="10" fill="#1A1B3D" stroke="url(#ill-grad)" stroke-width="2"/>
+  <!-- Floating PM artifact cards -->
+  <rect x="200" y="120" width="80" height="56" rx="8" fill="#1A1B3D" stroke="rgba(255,255,255,0.08)"/>
+  <rect x="210" y="132" width="48" height="4" rx="2" fill="#6366F1" fill-opacity="0.5"/>
+  <rect x="210" y="142" width="60" height="3" rx="1.5" fill="#94A3B8" fill-opacity="0.4"/>
+  <rect x="210" y="150" width="40" height="3" rx="1.5" fill="#94A3B8" fill-opacity="0.3"/>
+  <!-- AI Coach orb -->
+  <circle cx="320" cy="180" r="24" fill="url(#ill-orb)" fill-opacity="0.3"/>
+  <circle cx="320" cy="180" r="16" fill="url(#ill-orb)"/>
+  <!-- Simplified figure (isometric) -->
+  <rect x="100" y="200" width="20" height="32" rx="4" fill="#6366F1" fill-opacity="0.6"/>
+  <circle cx="110" cy="192" r="8" fill="#94A3B8"/>
+  <!-- XP badge reference -->
+  <rect x="300" y="40" width="64" height="24" rx="12" fill="#F59E0B"/>
+  <text x="332" y="56" font-family="system-ui,sans-serif" font-size="10" font-weight="700" fill="#0F0F23" text-anchor="middle">+50 XP</text>
+</svg>

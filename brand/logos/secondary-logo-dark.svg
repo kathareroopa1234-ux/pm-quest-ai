@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 176 216" fill="none" role="img" aria-label="PM Quest AI secondary stacked logo for dark backgrounds">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700&amp;family=Inter:wght@500&amp;display=swap');
+      .wordmark { font-family: 'Plus Jakarta Sans', 'Segoe UI', system-ui, sans-serif; font-weight: 700; }
+      .tagline { font-family: 'Inter', 'Segoe UI', system-ui, sans-serif; font-weight: 500; }
+    </style>
+    <linearGradient id="sld-gradient" x1="16" y1="144" x2="144" y2="16" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00D4FF"/>
+      <stop offset="52%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#A855F7"/>
+    </linearGradient>
+    <linearGradient id="sld-glow" x1="32" y1="32" x2="128" y2="128" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="sld-ai-badge" x1="0" y1="0" x2="52" y2="28" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4F46E5"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+  </defs>
+  <rect x="56" y="8" width="64" height="64" rx="16" fill="#1A1B3D"/>
+  <rect x="56" y="8" width="64" height="64" rx="16" fill="url(#sld-glow)"/>
+  <circle cx="78" cy="26" r="2.5" fill="#00D4FF"/>
+  <circle cx="88" cy="22" r="2.5" fill="#818CF8"/>
+  <circle cx="98" cy="26" r="2.5" fill="#A855F7"/>
+  <path d="M78 26 L88 22 L98 26" stroke="#6366F1" stroke-width="1.5" stroke-linecap="round" opacity="0.8"/>
+  <circle cx="88" cy="44" r="14" stroke="url(#sld-gradient)" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <path d="M98 54 L108 44 L102 44 L102 36" stroke="url(#sld-gradient)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <circle cx="88" cy="44" r="6" fill="#00D4FF" fill-opacity="0.12"/>
+  <text class="wordmark" x="88" y="108" font-size="26" fill="#F8FAFC" text-anchor="middle" letter-spacing="-0.02em">PM Quest</text>
+  <rect x="62" y="120" width="52" height="28" rx="8" fill="url(#sld-ai-badge)"/>
+  <text class="wordmark" x="88" y="140" font-size="13" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.06em">AI</text>
+  <text class="tagline" x="88" y="180" font-size="12" fill="#94A3B8" text-anchor="middle" letter-spacing="0.01em">Your Product Career Quest</text>
+</svg>

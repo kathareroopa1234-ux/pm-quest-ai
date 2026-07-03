@@ -1,0 +1,120 @@
+{
+  "brand": "PM Quest AI",
+  "version": "1.1",
+  "colors": {
+    "primary": {
+      "quest-indigo": {
+        "hex": "#6366F1",
+        "rgb": "99, 102, 241",
+        "usage": "Decorative accents, gradients, active icon fills — not small text on white"
+      },
+      "quest-indigo-accessible": {
+        "hex": "#4F46E5",
+        "rgb": "79, 70, 229",
+        "usage": "Text links, buttons, focus rings on light backgrounds (WCAG AA)"
+      },
+      "ai-cyan": {
+        "hex": "#00D4FF",
+        "rgb": "0, 212, 255",
+        "usage": "AI highlights on dark backgrounds, logo gradient start — never body text on white"
+      },
+      "ai-cyan-accessible": {
+        "hex": "#0891B2",
+        "rgb": "8, 145, 178",
+        "usage": "AI text and icons on light backgrounds (WCAG AA)"
+      },
+      "portal-violet": {
+        "hex": "#A855F7",
+        "rgb": "168, 85, 247",
+        "usage": "Premium features, boss battles, gradient end"
+      }
+    },
+    "neutral": {
+      "midnight": {
+        "hex": "#0F0F23",
+        "rgb": "15, 15, 35",
+        "usage": "Primary dark background, logo mark fill, headlines on light"
+      },
+      "deep-space": {
+        "hex": "#1A1B3D",
+        "rgb": "26, 27, 61",
+        "usage": "Secondary dark surfaces, elevated cards"
+      },
+      "slate-700": {
+        "hex": "#334155",
+        "rgb": "51, 65, 85",
+        "usage": "Body text on light backgrounds"
+      },
+      "slate-600": {
+        "hex": "#475569",
+        "rgb": "71, 85, 105",
+        "usage": "Secondary text on light backgrounds (WCAG AA)"
+      },
+      "slate-500": {
+        "hex": "#64748B",
+        "rgb": "100, 116, 139",
+        "usage": "Placeholder text on light backgrounds only"
+      },
+      "slate-400": {
+        "hex": "#94A3B8",
+        "rgb": "148, 163, 184",
+        "usage": "Secondary text on dark backgrounds (WCAG AA)"
+      },
+      "slate-200": {
+        "hex": "#E2E8F0",
+        "rgb": "226, 232, 240",
+        "usage": "Borders, dividers, body text on dark backgrounds"
+      },
+      "cloud": {
+        "hex": "#F8FAFC",
+        "rgb": "248, 250, 252",
+        "usage": "Primary light background"
+      },
+      "white": {
+        "hex": "#FFFFFF",
+        "rgb": "255, 255, 255",
+        "usage": "Cards, text on dark, logo wordmark on dark"
+      }
+    },
+    "semantic": {
+      "xp-gold": {
+        "hex": "#F59E0B",
+        "rgb": "245, 158, 11",
+        "usage": "XP, achievements, streaks, rewards"
+      },
+      "level-up-green": {
+        "hex": "#10B981",
+        "rgb": "16, 185, 129",
+        "usage": "Success, completion, level progression"
+      },
+      "boss-red": {
+        "hex": "#EF4444",
+        "rgb": "239, 68, 68",
+        "usage": "Boss battles, urgent alerts, errors"
+      },
+      "coach-blue": {
+        "hex": "#3B82F6",
+        "rgb": "59, 130, 246",
+        "usage": "AI coach panel accents — pair with white icon, not small text"
+      }
+    },
+    "gradients": {
+      "quest-gradient": {
+        "css": "linear-gradient(135deg, #00D4FF 0%, #6366F1 52%, #A855F7 100%)",
+        "usage": "Logo mark, hero backgrounds, decorative surfaces — not white text buttons"
+      },
+      "button-gradient": {
+        "css": "linear-gradient(135deg, #4F46E5 0%, #7C3AED 100%)",
+        "usage": "Primary CTA buttons with white text (WCAG AA safe)"
+      },
+      "dark-surface": {
+        "css": "linear-gradient(180deg, #1A1B3D 0%, #0F0F23 100%)",
+        "usage": "App shell, dark mode page backgrounds"
+      },
+      "achievement-glow": {
+        "css": "linear-gradient(135deg, #F59E0B 0%, #F97316 100%)",
+        "usage": "Achievement unlocks, celebration moments"
+      }
+    }
+  }
+}

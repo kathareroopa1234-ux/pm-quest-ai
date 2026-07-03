@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 288 80" fill="none" role="img" aria-label="PM Quest AI primary logo">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700&amp;display=swap');
+      .wordmark { font-family: 'Plus Jakarta Sans', 'Segoe UI', system-ui, sans-serif; font-weight: 700; }
+    </style>
+    <linearGradient id="pl-gradient" x1="8" y1="56" x2="56" y2="8" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00D4FF"/>
+      <stop offset="52%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#A855F7"/>
+    </linearGradient>
+    <linearGradient id="pl-glow" x1="16" y1="16" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="pl-ai-badge" x1="0" y1="0" x2="52" y2="28" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4F46E5"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+  </defs>
+  <!-- 8px clear-space padding built into viewBox -->
+  <rect x="8" y="8" width="64" height="64" rx="16" fill="#0F0F23"/>
+  <rect x="8" y="8" width="64" height="64" rx="16" fill="url(#pl-glow)"/>
+  <circle cx="30" cy="26" r="2.5" fill="#00D4FF"/>
+  <circle cx="40" cy="22" r="2.5" fill="#818CF8"/>
+  <circle cx="50" cy="26" r="2.5" fill="#A855F7"/>
+  <path d="M30 26 L40 22 L50 26" stroke="#6366F1" stroke-width="1.5" stroke-linecap="round" opacity="0.8"/>
+  <circle cx="40" cy="44" r="14" stroke="url(#pl-gradient)" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <path d="M50 54 L60 44 L54 44 L54 36" stroke="url(#pl-gradient)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <circle cx="40" cy="44" r="6" fill="#00D4FF" fill-opacity="0.12"/>
+  <!-- 16px gap from monogram (72+16=88) -->
+  <text class="wordmark" x="88" y="48" font-size="28" fill="#0F0F23" letter-spacing="-0.02em">PM Quest</text>
+  <!-- 12px gap after wordmark; indigo-violet badge (no cyan) for white-text contrast -->
+  <rect x="224" y="26" width="48" height="28" rx="8" fill="url(#pl-ai-badge)"/>
+  <text class="wordmark" x="248" y="46" font-size="13" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.06em">AI</text>
+</svg>

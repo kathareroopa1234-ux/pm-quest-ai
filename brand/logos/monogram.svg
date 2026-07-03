@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" role="img" aria-label="PM Quest AI monogram">
+  <defs>
+    <linearGradient id="mq-gradient" x1="8" y1="56" x2="56" y2="8" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00D4FF"/>
+      <stop offset="52%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#A855F7"/>
+    </linearGradient>
+    <linearGradient id="mq-glow" x1="16" y1="16" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="#0F0F23"/>
+  <rect width="64" height="64" rx="16" fill="url(#mq-glow)"/>
+  <!-- AI neural nodes -->
+  <circle cx="22" cy="18" r="2.5" fill="#00D4FF"/>
+  <circle cx="32" cy="14" r="2.5" fill="#818CF8"/>
+  <circle cx="42" cy="18" r="2.5" fill="#A855F7"/>
+  <path d="M22 18 L32 14 L42 18" stroke="#6366F1" stroke-width="1.5" stroke-linecap="round" opacity="0.8"/>
+  <!-- Quest Q ring -->
+  <circle cx="32" cy="36" r="14" stroke="url(#mq-gradient)" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <!-- Quest tail / upward progress arrow -->
+  <path d="M42 46 L52 36 L46 36 L46 28" stroke="url(#mq-gradient)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- Inner portal highlight -->
+  <circle cx="32" cy="36" r="6" fill="#00D4FF" fill-opacity="0.12"/>
+</svg>
